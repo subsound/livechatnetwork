@@ -1,4 +1,6 @@
 'use strict';
+var ms = document.getElementById('data '),
+    sbmt = document.getElementById('datasend ');
 
 var app = angular.module('myApp', []);
 
@@ -14,7 +16,7 @@ app.controller('AppCtrl', function ($scope, socket) {
     user.username = username;
     user.message = data;
     user.date = new Date().getTime();
-    user.image = 'http://dummyimage.com/250x250/000/fff&text=' + username.charAt(0).toUpperCase();
+    user.image = './images/user.png';
     $scope.users.push(user);
   });
 
@@ -61,4 +63,8 @@ app.factory('socket', function ($rootScope) {
       })
     }
   };
+});
+
+sbmt.addEventListener('click', function(event) {
+    ms.value = "";
 });
