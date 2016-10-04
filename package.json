@@ -20,10 +20,6 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sivasankars/private-chat-application.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sivasankars/private-chat-application/issues"
-  },
-  "homepage": "https://github.com/sivasankars/private-chat-application#readme"
+    "url": "git+https://github.com/subsound/livechatnetwork.git"
+  }
 }

@@ -1,2 +1,2 @@
-# Private Chat Application
-Private Chat Application with Node.js, Socket.IO and AngularJS
+#Node.js app with full perfomance 
+Live chat Application with Node.js, Socket.IO and AngularJS
